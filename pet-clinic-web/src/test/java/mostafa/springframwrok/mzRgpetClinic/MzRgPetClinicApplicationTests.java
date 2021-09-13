@@ -1,4 +1,4 @@
-package mostafa.springframwrokk.mzRgpetClinic;
+package mostafa.springframwrok.mzRgpetClinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
