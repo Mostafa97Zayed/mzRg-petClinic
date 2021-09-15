@@ -17,5 +17,9 @@ public class OwenrController {
     @RequestMapping({"/index",""})
     public String index(Model model){
         model.addAttribute("owners",ownerService.findAll());
-        return "owners/index";}
+        return "owners/index";
+    }
+
+    @RequestMapping("/find")
+    public String findOwner(){return "notImp";}
 }
